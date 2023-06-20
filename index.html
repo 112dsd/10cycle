@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script class="1">
+        const count = () => {
+            let i = 0
+            while (i <= 100) {
+                console.log(i)
+                ++i
+            }
+            return i
+        }
+        count()
+
+    </script>
+
+    <script class="2">
+
+        const count = () => {
+            let i = 100
+            while (i >= 1) {
+                console.log(i)
+                i--
+            }
+            return i
+        }
+        count()
+
+
+    </script>
+    <script class="3">
+        for (let i = 1; i <= 100; i++) {
+            if (i % 2 == 0) {
+                console.log(i)
+            }
+        }
+    </script>
+    <script class="4">
+        let arr = [];
+        for (let i = 0; i < 10; i++) {
+            arr.push("x");
+            console.log(arr);
+        }
+    </script>
+    <script class="5">
+        let arr = [];
+        for (let i = 1; i < 11; i++) {
+            arr.push(i);
+            console.log(arr);
+        }
+    </script>
+    <script class="6">
+        let arr = [6, 8, 4, -12, 0, 56, 5, 9];
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] > 0 && arr[i] < 10) {
+                console.log(arr[i]);
+            }
+        }
+    </script>
+    <script class="7">
+        let arr = [8, 5, 4, -15, 20, 6];
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] == 5) {
+                console.log(arr[i]);
+            }
+        }
+    </script>
+    <script class="8">
+        let arr = [4, 5, 9, 6, 7, 4, 1, 2, 15];
+        let sum = 0;
+        for (let i = 0; i < arr.length; i++) {
+            sum += arr[i];
+            console.log(sum)
+        }
+    </script>
+    <script class="9">
+        let arr = [3, 5, 4, 56, 8, 5, 6, 7];
+        let sum = 0;
+        for (let i = 0; i < arr.length; i++) {
+            sum += arr[i] ** 2;
+            console.log(sum)
+        }
+    </script>
+    <script class="10">
+        let arr = [6, 12, 66, 15, 22, 15, 196]
+        let sum = 0;
+        for (let i = 0; i < arr.length; i++) {
+            sum += arr[i];
+        }
+        let space = sum / arr.length
+        console.log(space);
+    </script>
+</body>
+
+</html>
